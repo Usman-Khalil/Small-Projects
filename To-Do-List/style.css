@@ -1,0 +1,85 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(10, 205, 231);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.outer{
+    margin-top: 50px;
+    height: auto;
+    width: 590px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #221515;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.task_input{
+    width: 450px;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(138, 134, 134);
+}
+
+.addBtn{
+    height: 38px;
+    width: 90px;
+    border-radius: 5px;
+     border: none;
+    background-color: rgb(10, 205, 231);
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.tasks{
+    width: 350px;
+    height: 25px;
+    padding-top: 12px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(138, 134, 134);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow:hidden;
+}
+
+i{
+    font-size: 30px;
+    color: red;
+    margin-right: 20px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.tasks_boxes{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+li{
+    list-style:none;
+    margin: 20px;
+}
+
+.done{
+    text-decoration: line-through;
+    color: gray;
+}
+
